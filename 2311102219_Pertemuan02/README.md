@@ -1,8 +1,6 @@
 # Praktikum Aplikasi Berbasis Platform
 
-Slide Presentasi 
-https://drive.google.com/file/d/14c-PRLfOvXwuazTeIIVXeaxGsVaDu2NL/view?usp=sharing
-
-Video Presentasi
+Slide Presentasi & Video Presentasi
+https://drive.google.com/drive/folders/1HyIrBQTR_Y-jUd8QxZHr1kwureF24RO6?usp=sharing
 
 
