@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas AJAX</title>
+</head>
+
+<body>
+
+    <div id="hasil-profil"></div>
+    <button id="btn-tampilkan">Tampilkan Profil</button>
+
+    <script>
+        const btn = document.getElementById("btn-tampilkan");
+        const hasil = document.getElementById("hasil-profil");
+
+        btn.onclick = async () => {
+            const req = await fetch('data.php');
+            const data = await req.json();
+
+            hasil.innerHTML = `Nama: ${data.nama} | Pekerjaan: ${data.pekerjaan} | Lokasi: ${data.lokasi}`;
+        }
+    </script>
+
+</body>
+
+</html>
